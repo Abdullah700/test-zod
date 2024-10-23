@@ -1,19 +1,17 @@
-import styles from './page.module.css';
-
 export default function Index() {
   /*
    * Replace the elements below with your own.
    *
-   * Note: The corresponding styles are in the ./index.css file.
+   * Note: The corresponding styles are in the ./index.none file.
    */
   return (
-    <div className={styles.page}>
+    <>
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome org 👋
+              Welcome test 👋
             </h1>
           </div>
 
@@ -397,7 +395,7 @@ export default function Index() {
                 </svg>
                 View project details
               </summary>
-              <pre>nx show project org --web</pre>
+              <pre>nx show project test --web</pre>
             </details>
             <details>
               <summary>
@@ -464,6 +462,6 @@ export default function Index() {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
